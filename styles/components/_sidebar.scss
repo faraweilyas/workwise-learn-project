@@ -1,0 +1,16 @@
+.w-sidebar {
+  grid-area: w-sidebar;
+  @apply w-full flex bg-blue-800 fixed  top-14 left-0 text-white overflow-y-scroll;
+  width: 240px;
+  height: 100vh;
+  padding-bottom: 20rem !important;
+  // transition: all 0.s ease-in-out;
+  @include noscrollbar();
+}
+
+
+@media(max-width: 600px){
+  .w-sidebar{
+    z-index: 5;
+  }
+}

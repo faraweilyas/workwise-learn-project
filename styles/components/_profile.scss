@@ -1,0 +1,20 @@
+.upload-btn{
+    width: 60%;
+}
+.save-btn{
+    width: 50%;
+}
+@media(max-width: 600px){
+    .edit-controls{
+        flex-direction: column;
+    }
+    .sub-control{
+        margin: 0% !important;
+    }
+    .upload-btn{
+        width: 100%;
+    }
+    .save-btn{
+        width: 100%;
+    }
+}

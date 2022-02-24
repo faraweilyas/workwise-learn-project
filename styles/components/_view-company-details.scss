@@ -1,0 +1,31 @@
+.details-table{
+    display: block;
+    overflow-x: auto;
+    width:1000px;
+}
+.descrease-top{
+    margin-top: -120px;
+}
+.company-modal-container{
+    display: flex;
+    justify-content: space-between;
+}
+.company-add-btn{
+    width: 50%;
+}
+
+@media(max-width: 600px){
+    .details-table{
+        width: 400px;
+    }
+    .details-details{
+        width: 100%;
+    }
+    .company-modal-container{
+        flex-direction: column;
+    }
+    .company-add-btn{
+        width: 90%;
+    }
+    
+  }

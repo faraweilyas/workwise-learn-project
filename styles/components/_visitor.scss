@@ -1,0 +1,70 @@
+.total-cards{
+    display: flex;
+    justify-content: space-between;
+}
+select {
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 90%;
+}
+.total-cards>div{
+    width: 30%;
+}
+
+.visitor-table{
+    display: block;
+    width:870px;
+    margin: auto;
+}
+.mt-visitor-table{
+    margin-top: 11%;
+    width:880px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.delivery-table-container{
+    width: 100%;
+}
+.charts-container{
+    display: flex;
+}
+
+.chart-2-set{
+    max-height: 40vh;
+    max-width: 58%;
+}
+.chart-3-set{
+    margin-left: 10px;
+    max-height: 40vh;
+    max-width: 40%;
+}
+
+@media(max-width: 600px){
+    .visitor-table{
+        width: 350px;
+        overflow-x: auto;
+    }
+    .total-cards{
+      flex-direction: column;
+    }
+    .total-cards>div{
+        width: 90%;
+    }
+    .charts-container{
+        flex-direction: column;
+    }
+    .chart-2-set{
+        max-width: 100%;
+        height: 100vh;
+        overflow: scroll;
+    }
+    .chart-3-set{
+        margin-top: 5px;
+        max-width: 100%;
+        margin-left: 0px;
+        height: 100vh;
+        padding-bottom: 50px;
+    }
+    
+    
+  }

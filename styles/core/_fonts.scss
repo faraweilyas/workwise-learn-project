@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+@font-face {
+  font-family: "BwNistaGeometricDEMOBlack";
+  src: local("BwNistaGeometricDEMOBlack"), url(../../assets/fonts/BwNistaGeometricDEMOBlack.woff) format("woff");
+  // font-weight: 600;
+}
+@font-face {
+  font-family: "BwNistaGeometricDEMOLight";
+  src: local("BwNistaGeometricDEMOLight"), url(../../assets/fonts/BwNistaGeometricDEMOLight.woff) format("woff");
+  // font-weight: 600;
+}
+@font-face {
+  font-family: "BwNistaGeometricDEMORegular";
+  src: local("BwNistaGeometricDEMORegular"), url(../../assets/fonts/BwNistaGeometricDEMORegular.woff) format("woff");
+  // font-weight: 600;
+}
+@font-face {
+  font-family: "BwNistaGeometricDEMOThin";
+  src: local("BwNistaGeometricDEMOThin"), url(../../assets/fonts/BwNistaGeometricDEMOThin.woff) format("woff");
+  // font-weight: 600;
+}
+@font-face {
+  font-family: "BwNistaGeometricDEMOMedium";
+  src: local("BwNistaGeometricDEMOMedium"), url(../../assets/fonts/BwNistaGeometricDEMOMedium.woff) format("woff");
+  // font-weight: 600;
+}
+@font-face {
+  font-family: "BwNistaGeometricDEMOBold";
+  src: local("BwNistaGeometricDEMOBold"), url(../../assets/fonts/BwNistaGeometricDEMOBold.woff) format("woff");
+  // font-weight: 600;
+}
+@font-face {
+  font-family: "BwNistaGeometricDEMOExtraBold";
+  src: local("BwNistaGeometricDEMOExtraBold"), url(../../assets/fonts/BwNistaGeometricDEMOExtraBold.woff) format("woff");
+  // font-weight: 600;
+}
+
+.font-dm {
+  font-family: "BwNistaGeometricDEMOBlack", serif;
+}
+
+.font-BwN {
+  font-family: "BwNistaGeometricDEMORegular", sans-serif;
+
+  &--bold {
+    font-family: "BwNistaGeometricDEMOBold", sans-serif;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+  }
+
+  &--light {
+    font-family: "BwNistaGeometricDEMOLight", sans-serif;
+    font-weight: 100;
+  }
+  &--lighter {
+    font-family: "BwNistaGeometricDEMOThin", sans-serif;
+    font-weight: 100;
+  }
+
+  &--reg {
+    font-family: "BwNistaGeometricDEMORegular", sans-serif;
+  }
+
+  &--mid {
+    font-family: "BwNistaGeometricDEMOMedium", sans-serif;
+  }
+
+  &--bolder {
+    font-family: "BwNistaGeometricDEMOExtraBold";
+    font-weight: 700;
+  }
+}
+
+.font-10 {
+  font-size: 10px;
+}
+.font-11 {
+  font-size: 11px;
+}
+.font-sm {
+  font-size: 12px;
+}
+
+.font-15 {
+  font-size: 15px;
+
+  &.md-smaller {
+    @include media("<=phone") {
+      font-size: 13px;
+    }
+  }
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-18 {
+  font-size: 17px;
+}
+
+.font-22 {
+  font-size: 22px;
+
+  @include media("<=tablet") {
+    font-size: 1.25rem;
+  }
+}
+
+.font-28 {
+  font-size: 28px;
+
+  @include media("<=tablet") {
+    font-size: 1.5rem;
+  }
+}
+.font-32 {
+  font-size: 32px;
+
+  @include media("<=tablet") {
+    font-size: 1.7rem;
+  }
+}
+.font-40 {
+  font-size: 40px;
+  line-height: 48px;
+
+  @include media("<=tablet") {
+    font-size: 2.5rem;
+  }
+}

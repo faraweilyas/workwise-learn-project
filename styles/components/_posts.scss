@@ -1,0 +1,37 @@
+.w-single-post {
+  /* Auto Layout */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
+  
+}
+.w-single-post:hover{
+  background-color: #FBFFF0;
+}
+.partial-bg{
+  background: linear-gradient(to left, #f2f5fa 10%, #DAE4F3 90%);
+}
+.minus-margin{
+  margin-top: -10px;
+}
+.poll-btn-group{
+  width: 50%;
+}
+@media(max-width: 600px){
+  .create-btn-group{
+      flex-direction: column;
+  }
+  .img-flex{
+    flex-direction: column;
+    
+  }
+  .img-flex>img{
+    width: 30%;
+  }
+  .poll-btn-group{
+    width: 100%;
+  }
+  
+}

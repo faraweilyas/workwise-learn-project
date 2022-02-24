@@ -1,0 +1,50 @@
+.inner-breadcrum-view{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.view-table{
+    display: block;
+    overflow-x: auto;
+    width:1000px;
+    margin-left: 8%;
+    margin-top: 11%;
+}
+.view-table-heading{
+    flex-basis: 16.66% !important;
+    justify-content: space-between;
+}
+.view-inner-table tr{
+    height: 70px ;
+    
+}
+
+.view-table-content{
+    flex-basis: 16.66% !important;
+    justify-content: space-between;
+}
+.active-btn{
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 12px;
+  padding: 15px;
+  width:80px;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+  background: #029963;
+}
+@media(max-width: 600px){
+    .view-table{
+        width: 400px;
+    }
+    .total-cards{
+      flex-direction: column;
+    }
+    .total-cards>div{
+        width: 90%;
+    }
+    
+  }

@@ -1,0 +1,35 @@
+.directory-btn{
+    margin-left: 40%;
+}
+.directory-main-content{
+    width: 870px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-top: 10%;
+}
+.directory-main-content-inner{
+    width: 70%;
+    margin: auto;
+}
+.inner-breadcrum-directory{
+    width: 880px;
+    display: flex;
+    margin: auto;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+@media(max-width: 600px){
+    .inner-breadcrum-directory{
+        width: 70%;
+        flex-direction: column;
+        margin: 0;
+    }
+    .directory-btn{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+    }
+}
